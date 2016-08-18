@@ -1,6 +1,6 @@
 {
     "name": "huaiguoguo/fire",
-    "description": "Yii PHP Framework Version 2 - Development Package",
+    "description": "Fire PHP Framework Version 2 - Development Package",
     "keywords": [
         "fire",
         "framework"
@@ -51,9 +51,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "master": "2.0.x-dev"
-        },
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
