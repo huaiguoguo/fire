@@ -5,21 +5,17 @@
         "fire",
         "framework"
     ],
-    "homepage": "no homepage",
     "type": "fire-extension",
     "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Guo Feng",
             "email": "gufe198@163.com",
-            "homepage": "no homepage",
             "role": "Founder and project lead"
         }
     ],
     "support": {
         "issues": "https://github.com/huaiguoguo/fire/issues?state=open",
-        "forum": "no homepage",
-        "wiki": "no homepage",
         "source": "https://github.com/huaiguoguo/fire"
     },
     "minimum-stability": "dev",
