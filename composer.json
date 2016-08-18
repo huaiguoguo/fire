@@ -20,7 +20,7 @@
     },
     "minimum-stability": "dev",
     "replace": {
-        "huaiguoguo/fire": "self.version"
+        "huaiguoguo/fire": ">=1.0"
     },
     "autoload": {
         "psr-4": {
