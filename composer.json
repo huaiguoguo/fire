@@ -1,6 +1,6 @@
 {
     "name": "huaiguoguo/fire",
-    "description": "Fire PHP Framework Version 2 - Development Package",
+    "description": "Fire PHP Framework Version- Development Package",
     "keywords": [
         "fire",
         "framework"
@@ -19,9 +19,6 @@
         "source": "https://github.com/huaiguoguo/fire"
     },
     "minimum-stability": "dev",
-    "replace": {
-        "huaiguoguo/fire": ">=1.0"
-    },
     "autoload": {
         "psr-4": {
             "fire\\": "framework/"
