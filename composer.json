@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "fire\\": "framework/"
+            "Fire\\": "framework/"
         }
     },
     "config": {
