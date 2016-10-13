@@ -23,6 +23,11 @@
         "php": ">=5.4.0",
         "huaiguoguo/fire": ">=1.0.1"
     },
+    "autoload": {
+        "psr-4": {
+            "fire\\": "framework/"
+        }
+    },
     "config": {
         "process-timeout": 1800
     }
