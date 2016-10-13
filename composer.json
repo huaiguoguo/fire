@@ -18,5 +18,12 @@
         "issues": "https://github.com/huaiguoguo/fire/issues?state=open",
         "source": "https://github.com/huaiguoguo/fire"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "huaiguoguo/fire": ">=1.0.1"
+    },
+    "config": {
+        "process-timeout": 1800
+    }
 }
