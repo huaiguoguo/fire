@@ -51,7 +51,7 @@ class BaseFire
 
         include($classFile);
 
-        if (YII_DEBUG && !class_exists($className, false) && !interface_exists($className, false) && !trait_exists($className, false)) {
+        if (Fire_DEBUG && !class_exists($className, false) && !interface_exists($className, false) && !trait_exists($className, false)) {
             throw new \Exception("Unable to find '$className' in file: $classFile. Namespace missing?");
         }
     }
