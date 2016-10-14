@@ -8,7 +8,7 @@
 
 namespace Fire;
 
-defined('Fire_PATH') or define('Fire_PATH', __DIR__);
+defined('FIRE_PATH') or define('FIRE_PATH', __DIR__);
 
 
 class BaseFire

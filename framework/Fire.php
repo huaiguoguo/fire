@@ -8,10 +8,9 @@
 
 require(__DIR__ . '/BaseFire.php');
 
-class Yii extends \Fire\BaseFire
+class Fire extends \Fire\BaseFire
 {
 }
 
-spl_autoload_register(['Yii', 'autoload'], true, true);
-Yii::$classMap = require(__DIR__ . '/classes.php');
-//Yii::$container = new yii\di\Container();
+spl_autoload_register(['Fire', 'autoload'], true, true);
+Fire::$classMap = require(__DIR__ . '/classes.php');
