@@ -16,7 +16,8 @@
         "source": "https://github.com/huaiguoguo/fire"
     },
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "filp/whoops": "*"
     },
     "autoload": {
         "psr-4": {

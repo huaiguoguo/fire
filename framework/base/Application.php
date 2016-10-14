@@ -7,19 +7,21 @@
  */
 
 namespace Fire\base;
+
 use Fire;
+use Whoops;
+use Whoops\Handler\PrettyPageHandler;
+use Whoops\Handler\JsonResponseHandler;
 
 abstract class Application
 {
-
-
     public function __construct($config)
     {
-
-        if(!isset($config['basePath'])){
+        $run = new Whoops\Run;
+        $run->pushHandler(new PrettyPageHandler);
+        $run->register();
+        if (!isset($config['basePath'])) {
             throw new \Exception('basePath不存在');
         }
-        
     }
-
 }
