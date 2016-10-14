@@ -2,7 +2,7 @@
     "name": "huaiguoguo/fire",
     "description": "Fire PHP Framework Version- Development Package",
     "keywords": [ "fire", "framework"],
-    "type": "fire-extension",
+    "type": "library",
     "license": "BSD-3-Clause",
     "authors": [
         {
